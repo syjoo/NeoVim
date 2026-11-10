@@ -1,0 +1,22 @@
+vim.opt.shell = "powershell"
+vim.g.mapleader = " "        -- 반드시 lazy 로드 전에 설정
+vim.g.maplocalleader = " "
+
+local o = vim.opt
+o.number = true
+o.relativenumber = true
+o.expandtab = true           -- 탭 대신 공백
+o.shiftwidth = 2
+o.tabstop = 2
+o.smartindent = true
+o.ignorecase = true
+o.smartcase = true           -- 대문자를 쓰면 대소문자 구분
+o.termguicolors = true
+o.cursorline = true
+o.signcolumn = "yes"         -- 화면이 좌우로 흔들리지 않게
+o.scrolloff = 8
+o.splitright = true
+o.splitbelow = true
+o.undofile = true
+o.clipboard = "unnamedplus"  -- Windows 클립보드 공유
+o.updatetime = 250
